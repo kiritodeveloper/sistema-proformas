@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.reflectionImage1 = new DevComponents.DotNetBar.Controls.ReflectionImage();
             this.SuspendLayout();
             // 
             // button1
@@ -112,12 +114,26 @@
             this.textBoxX2.Size = new System.Drawing.Size(187, 20);
             this.textBoxX2.TabIndex = 5;
             // 
+            // reflectionImage1
+            // 
+            // 
+            // 
+            // 
+            this.reflectionImage1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.reflectionImage1.BackgroundStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.reflectionImage1.Image = ((System.Drawing.Image)(resources.GetObject("reflectionImage1.Image")));
+            this.reflectionImage1.Location = new System.Drawing.Point(36, 28);
+            this.reflectionImage1.Name = "reflectionImage1";
+            this.reflectionImage1.Size = new System.Drawing.Size(159, 148);
+            this.reflectionImage1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(596, 213);
+            this.Controls.Add(this.reflectionImage1);
             this.Controls.Add(this.textBoxX2);
             this.Controls.Add(this.textBoxX1);
             this.Controls.Add(this.labelX2);
@@ -139,6 +155,7 @@
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
         private DevComponents.DotNetBar.Controls.TextBoxX textBoxX2;
+        private DevComponents.DotNetBar.Controls.ReflectionImage reflectionImage1;
     }
 }
 

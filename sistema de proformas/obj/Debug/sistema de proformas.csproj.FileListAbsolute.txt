@@ -1,7 +1,6 @@
 c:\users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\bin\Debug\sistema de proformas.exe.config
 C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\obj\Debug\sistema de proformas.csprojResolveAssemblyReference.cache
 C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\obj\Debug\sistema_de_proformas.Form1.resources
-C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\obj\Debug\sistema_de_proformas.main.resources
 C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\obj\Debug\sistema_de_proformas.Properties.Resources.resources
 C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\obj\Debug\sistema de proformas.csproj.GenerateResource.Cache
 C:\Users\kirito\documents\visual studio 2015\Projects\sistema de proformas\sistema de proformas\bin\Debug\sistema de proformas.exe
